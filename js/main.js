@@ -1,4 +1,4 @@
-// Mobile nav toggle, current-page highlighting, footer year, donate amount buttons.
+// Mobile nav toggle, current-page highlighting, footer year.
 document.addEventListener("DOMContentLoaded", () => {
   const toggle = document.querySelector(".nav-toggle");
   const nav = document.querySelector(".nav");
@@ -16,15 +16,6 @@ document.addEventListener("DOMContentLoaded", () => {
 
   document.querySelectorAll("[data-year]").forEach((el) => (el.textContent = new Date().getFullYear()));
 
-  const amounts = document.querySelectorAll(".amounts button");
-  const amountInput = document.querySelector("#donate-amount");
-  amounts.forEach((btn) =>
-    btn.addEventListener("click", () => {
-      amounts.forEach((b) => b.classList.remove("active"));
-      btn.classList.add("active");
-      if (amountInput) amountInput.value = btn.dataset.amount;
-    })
-  );
 });
 
 // Contact form: opens the visitor's email app with the message filled in.

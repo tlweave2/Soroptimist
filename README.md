@@ -30,7 +30,7 @@ Also replace these everywhere:
 
 ## Photos
 
-Add photos to `images/` and replace each `<div class="photo">…</div>` placeholder with an image, for example:
+Add photos to `images/` and replace each `<div class="photo-slot">…</div>` placeholder with an image, for example:
 
 ```html
 <img src="images/charter.jpg" alt="Club members at the charter party" style="border-radius:12px">
@@ -38,4 +38,4 @@ Add photos to `images/` and replace each `<div class="photo">…</div>` placehol
 
 ## Editing
 
-Every page repeats the same header and footer, so a change to the menu or footer needs to be made in each `.html` file. Colors live at the top of `css/styles.css`.
+Every page repeats the same header and footer, so a change to the menu or footer needs to be made in each `.html` file. Colors are set at the top of `css/styles.css`.
