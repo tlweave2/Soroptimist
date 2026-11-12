@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 400" preserveAspectRatio="none">
+  <filter id="wc" x="-20%" y="-40%" width="140%" height="180%"><feTurbulence type="fractalNoise" baseFrequency="0.01" numOctaves="4" seed="21"/><feDisplacementMap in="SourceGraphic" scale="80"/><feGaussianBlur stdDeviation="12"/></filter>
+  <g filter="url(#wc)" style="mix-blend-mode:multiply">
+    <ellipse cx="300" cy="200" rx="520" ry="190" fill="#b9dcf3" opacity=".6"/>
+    <ellipse cx="900" cy="230" rx="520" ry="170" fill="#cbe6f6" opacity=".6"/>
+    <ellipse cx="1400" cy="170" rx="420" ry="190" fill="#cfc8ef" opacity=".45"/>
+  </g>
+</svg>

@@ -4,66 +4,124 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Events | Soroptimist International City of Riverbank</title>
-  <meta name="description" content="Upcoming meetings and events.">
+  <meta name="description" content="Upcoming meetings, fundraisers and events from Soroptimist International City of Riverbank.">
   <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,500;0,600;1,500&family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/styles.css">
   <script src="js/main.js" defer></script>
 </head>
 <body>
   <a class="skip" href="#main">Skip to content</a>
+  <div class="topbar">
+    <div class="container">
+      <span>Improving the lives of women and girls in Riverbank, CA</span>
+      <span><a href="mailto:riverbank.soroptimist@example.org">riverbank.soroptimist@example.org</a></span>
+    </div>
+  </div>
   <header class="site-header">
-    <div class="wrap">
+    <div class="container">
       <a class="brand" href="index.html">
-        <img src="images/favicon.svg" alt="">
-        <span>Soroptimist International<small>City of Riverbank, California</small></span>
+        <span class="brand-mark" aria-hidden="true">S</span>
+        <span class="brand-text"><strong>Soroptimist International</strong><span>City of Riverbank</span></span>
       </a>
       <button class="nav-toggle" aria-expanded="false" aria-controls="site-nav">Menu</button>
       <nav class="nav" id="site-nav" aria-label="Main">
         <ul>
           <li><a href="index.html">Home</a></li>
-          <li><a href="about.html">About Us</a></li>
+          <li><a href="about.html">About</a></li>
           <li><a href="programs.html">Programs</a></li>
           <li><a href="events.html">Events</a></li>
           <li><a href="join.html">Join</a></li>
-          <li><a href="donate.html">Donate</a></li>
           <li><a href="contact.html">Contact</a></li>
+          <li><a class="btn btn-gold" href="donate.html">Donate</a></li>
         </ul>
       </nav>
     </div>
   </header>
 
   <main id="main">
-    <div class="wrap">
-      <div class="page-title">
+    <section class="page-hero">
+      <div class="container">
         <h1>Events</h1>
-        <p>We also post updates on <a href="https://www.instagram.com/cityofriverbank_soroptimist/">Instagram</a>.</p>
+        <p>Fundraisers, meetings and community happenings. Everyone is welcome.</p>
       </div>
-      <table>
-        <thead><tr><th>Date</th><th>Event</th><th>Where</th></tr></thead>
-        <tbody>
-            <tr><td class="date"><span class="todo">Date</span></td><td><strong>Club meeting</strong><br><span class="note">Guests welcome.</span></td><td><span class="todo">Location</span></td></tr>
-            <tr><td class="date"><span class="todo">Date</span></td><td><strong>Membership mixer</strong><br><span class="note">Come meet us and ask questions. No pressure to join.</span></td><td><span class="todo">Location</span></td></tr>
-            <tr><td class="date"><span class="todo">Date</span></td><td><strong><span class="todo">Fundraiser name</span></strong><br><span class="note">Proceeds go to Live Your Dream Awards and Dream It, Be It.</span></td><td><span class="todo">Location</span></td></tr>
-            <tr><td class="date"><span class="todo">Date</span></td><td><strong>Dream It, Be It workshop</strong><br><span class="note">We need volunteers and speakers.</span></td><td><span class="todo">Location</span></td></tr>
-        </tbody>
-      </table>
-      <p style="margin-top:24px">Local business interested in sponsoring an event? <a href="contact.html?topic=Sponsorship">Send us a note.</a></p>
-    </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <h2>Upcoming</h2>
+        <p class="lead">Follow us on <a href="https://www.instagram.com/cityofriverbank_soroptimist/" rel="noopener" target="_blank">Instagram</a> for the latest updates.</p>
+        <div class="grid" style="margin-top:28px">
+          <div class="card event">
+            <div class="event-date"><span class="m">TBD</span><span class="d">--</span></div>
+            <div><h3>General Meeting</h3><p class="meta"><span class="todo">Date, time &amp; location</span></p><p>Our regular club meeting. Prospective members are welcome to attend as guests.</p></div>
+          </div>
+          <div class="card event">
+            <div class="event-date"><span class="m">TBD</span><span class="d">--</span></div>
+            <div><h3>Membership Mixer</h3><p class="meta"><span class="todo">Date, time &amp; location</span></p><p>An evening to meet our members and learn how you can get involved.</p></div>
+          </div>
+          <div class="card event">
+            <div class="event-date"><span class="m">TBD</span><span class="d">--</span></div>
+            <div><h3>Annual Fundraiser</h3><p class="meta"><span class="todo">Name, date &amp; location</span></p><p>Our biggest fundraiser of the year. Proceeds support Live Your Dream awards and Dream It, Be It.</p></div>
+          </div>
+          <div class="card event">
+            <div class="event-date"><span class="m">TBD</span><span class="d">--</span></div>
+            <div><h3>Dream It, Be It Workshop</h3><p class="meta"><span class="todo">Date &amp; location</span></p><p>A career-support workshop for local girls. Volunteers and mentors needed!</p></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section alt">
+      <div class="container center">
+        <h2>Have an event idea or want to sponsor?</h2>
+        <p class="lead">Local businesses and partners help make our events possible. We'd love to hear from you.</p>
+        <a class="btn btn-blue" href="contact.html">Get in touch</a>
+      </div>
+    </section>
   </main>
 
   <footer class="site-footer">
-    <div class="wrap">
-      <div>
-        <p><strong>Soroptimist International City of Riverbank</strong></p>
-        <p>Riverbank, CA 95367 &middot; <a href="mailto:riverbank.soroptimist@example.org">riverbank.soroptimist@example.org</a></p>
-        <p>Instagram: <a href="https://www.instagram.com/cityofriverbank_soroptimist/">@cityofriverbank_soroptimist</a></p>
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <h3>Soroptimist International City of Riverbank</h3>
+          <p>A volunteer organization of women helping women and girls in Riverbank achieve their dreams through access to education and training.</p>
+          <div class="social">
+            <a href="https://www.instagram.com/cityofriverbank_soroptimist/" aria-label="Instagram" rel="noopener" target="_blank"><svg viewBox="0 0 24 24"><path d="M12 2.2c3.2 0 3.6 0 4.8.1 3.3.1 4.8 1.7 4.9 4.9.1 1.3.1 1.6.1 4.8s0 3.6-.1 4.8c-.1 3.2-1.7 4.8-4.9 4.9-1.3.1-1.6.1-4.8.1s-3.6 0-4.8-.1c-3.3-.1-4.8-1.7-4.9-4.9C2.2 15.6 2.2 15.2 2.2 12s0-3.6.1-4.8C2.4 3.9 3.9 2.4 7.2 2.3 8.4 2.2 8.8 2.2 12 2.2zm0 4.7a5.1 5.1 0 1 0 0 10.2 5.1 5.1 0 0 0 0-10.2zm0 8.4a3.3 3.3 0 1 1 0-6.6 3.3 3.3 0 0 1 0 6.6zm5.3-9.8a1.2 1.2 0 1 0 0 2.4 1.2 1.2 0 0 0 0-2.4z"/></svg></a>
+            <a href="#" aria-label="Facebook (link coming soon)"><svg viewBox="0 0 24 24"><path d="M14 8h3V4h-3c-2.8 0-4.5 1.8-4.5 4.6V11H7v4h2.5v9h4v-9h3l.5-4h-3.5V8.9c0-.6.4-.9 1-.9z"/></svg></a>
+          </div>
+        </div>
+        <div>
+          <h3>Explore</h3>
+          <ul>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="programs.html">Programs</a></li>
+            <li><a href="events.html">Events</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3>Get Involved</h3>
+          <ul>
+            <li><a href="join.html">Become a Member</a></li>
+            <li><a href="donate.html">Donate</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3>Contact</h3>
+          <ul>
+            <li>Riverbank, California</li>
+            <li><a href="mailto:riverbank.soroptimist@example.org">riverbank.soroptimist@example.org</a></li>
+            <li><a href="https://www.instagram.com/cityofriverbank_soroptimist/" rel="noopener" target="_blank">@cityofriverbank_soroptimist</a></li>
+          </ul>
+        </div>
       </div>
-      <div>
-        <p>A member club of <a href="https://www.soroptimist.org">Soroptimist International of the Americas</a>, Sierra Pacific Region.</p>
-        <p>&copy; <span data-year>2026</span> Soroptimist International City of Riverbank</p>
+      <div class="footer-bottom">
+        <span>&copy; <span data-year>2026</span> Soroptimist International City of Riverbank. A member club of Soroptimist International of the Americas, Sierra Pacific Region.</span>
+        <span><a href="https://www.soroptimist.org" rel="noopener" target="_blank">soroptimist.org</a></span>
       </div>
     </div>
   </footer>
